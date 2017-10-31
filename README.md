@@ -1,5 +1,5 @@
-# Mup Data Backup
-These commands run well if metero deployed with mup tool. Mup creates docker for mongodb hence taking backup becomes easy with these commands.
+# MongoDB Data Backup deployed with Mup
+These commands run well if meteor app deployed with mup tool. Mup creates docker for mongodb hence taking backup becomes easy with these commands.
 
 # Backup
 Take backup of running app data from docker then copy to local folder out of docker.
