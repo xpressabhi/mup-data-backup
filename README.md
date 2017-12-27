@@ -24,6 +24,6 @@ db.runCommand( { dropDatabase: 1 } )
 # Restore data to meteor docker
 docker cp /path/to/dumpfile mongodb:/root/mongodump.gz
 
-docker exec -it mongodb mongodump --archive=/root/mongodump.gz --gzip
+docker exec -it mongodb mongorestore --archive=/root/mongodump.gz --gzip
 
 
