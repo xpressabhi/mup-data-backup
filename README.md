@@ -28,6 +28,7 @@ docker exec -it mongodb mongorestore --archive=/root/mongodump.gz --gzip
 
 # Drop target database and restore in one line
 docker exec -it mongodb mongorestore --drop --archive=/root/mongodump.gz --gzip
+
 Drops only collections present in dump.
 
 
