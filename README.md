@@ -31,7 +31,9 @@ docker exec -it mongodb mongorestore --drop --archive=/root/mongodump.gz --gzip
 
 Drops only collections present in dump.
 
-#Script.sh to make it simpler. 
-Thanks to @yanickrochon
+# script.sh to make it simpler. 
+Thanks to [yanickrochon](https://github.com/yanickrochon)
+
+Go to [script.sh](./script.sh)
 
 
